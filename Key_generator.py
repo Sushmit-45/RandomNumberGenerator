@@ -81,7 +81,7 @@ def audio_callback(indata, frames, time, status):
 
     # Get and print the current concatenated hex color string and timestamp
     timestamp, current_colors = get_color_queue_state()
-    print(f"Timestamp: {timestamp}, Concatenated Colors: {current_colors}")
+    print(f"Timestamp: {timestamp}, TheRandomNumber: {current_colors}")
 
 # Main function to run real-time audio processing
 def run_real_time_processing():
